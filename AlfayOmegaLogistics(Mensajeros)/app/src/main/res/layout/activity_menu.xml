@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:id="@+id/layoutmenu">
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="Servicios por asignar"
+        android:id="@+id/btnporasignar"
+        android:background="@drawable/boton"
+        android:layout_below="@+id/btnmenuperfil"
+        android:layout_alignLeft="@+id/btnmenuperfil"
+        android:layout_alignStart="@+id/btnmenuperfil"
+        android:layout_marginTop="25dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="Perfil"
+        android:id="@+id/btnmenuperfil"
+        android:background="@drawable/boton"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/btnporrealizar"
+        android:layout_alignStart="@+id/btnporrealizar"
+        android:layout_marginTop="25dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="Servicios por realizar"
+        android:id="@+id/btnporrealizar"
+        android:background="@drawable/boton"
+        android:layout_below="@+id/btnporasignar"
+        android:layout_alignLeft="@+id/btnmenucerrarsesion"
+        android:layout_alignStart="@+id/btnmenucerrarsesion"
+        android:layout_marginTop="25dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="Cerrar Sesión"
+        android:id="@+id/btnmenucerrarsesion"
+        android:background="@drawable/boton"
+        android:layout_below="@+id/btnporrealizar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp" />
+</RelativeLayout>

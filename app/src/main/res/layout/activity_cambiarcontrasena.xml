@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/fondo">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="CONTRASEÑA ACTUAL"
+        android:gravity="center"
+        android:ems="10"
+        android:id="@+id/txtcambiarcontraant"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="89dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="CONTRASEÑA NUEVA"
+        android:gravity="center"
+        android:ems="10"
+        android:id="@+id/txtcambiarcontranueva"
+        android:layout_above="@+id/txtcambiarcontranueva2"
+        android:layout_alignLeft="@+id/txtcambiarcontraant"
+        android:layout_alignStart="@+id/txtcambiarcontraant" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:gravity="center"
+        android:hint="REPETIR"
+        android:ems="10"
+        android:id="@+id/txtcambiarcontranueva2"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/txtcambiarcontranueva"
+        android:layout_alignStart="@+id/txtcambiarcontranueva" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="Cambiar \ncontraseña"
+        android:id="@+id/btncambiarcontra"
+        android:background="@drawable/boton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:textColor="#ffffff" />
+</RelativeLayout>

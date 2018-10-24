@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:fillViewport="false">
+
+<RelativeLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Especial"
+        android:id="@+id/estipo"
+        android:layout_below="@+id/textView8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion"
+        android:id="@+id/esdescri"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/estipo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Fecha de solicitud: 0000-00-00 00:00:00"
+        android:id="@+id/esfechasoli"
+        android:layout_below="@+id/esdescri"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="# Servicio: XXX"
+        android:id="@+id/esnumservice"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Origen: calle 5 # 4 -03"
+        android:id="@+id/esdirecori"
+        android:layout_below="@+id/textView13"
+        android:layout_alignLeft="@+id/textView13"
+        android:layout_alignStart="@+id/textView13" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Destino: calle 55 # 42 -29"
+        android:id="@+id/esdirecdes"
+        android:layout_below="@+id/esdirecori"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Tipo servicio"
+        android:id="@+id/textView8"
+        android:layout_below="@+id/esnumservice"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="45 Km"
+        android:id="@+id/esdistan"
+        android:layout_below="@+id/textView11"
+        android:layout_alignLeft="@+id/esdirecdes"
+        android:layout_alignStart="@+id/esdirecdes" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="15.000"
+        android:id="@+id/esvalor"
+        android:layout_below="@+id/textView12"
+        android:layout_alignLeft="@+id/textView12"
+        android:layout_alignStart="@+id/textView12" />
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:text="Ver Origen"
+        android:id="@+id/btnverorigen"
+        android:background="@drawable/boton"
+        android:layout_below="@+id/esvalor"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:text="Aceptar"
+        android:id="@+id/btnaceptar"
+        android:layout_below="@+id/btnverorigen"
+        android:layout_centerHorizontal="true"
+        android:textSize="15dp" />
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:text="Ver Destino"
+        android:id="@+id/btnverdestino"
+        android:background="@drawable/boton"
+        android:layout_alignTop="@+id/btnverorigen"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Distancia"
+        android:id="@+id/textView11"
+        android:layout_below="@+id/esdirecdes"
+        android:layout_alignLeft="@+id/esdistan"
+        android:layout_alignStart="@+id/esdistan"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Valor"
+        android:id="@+id/textView12"
+        android:layout_below="@+id/esdistan"
+        android:layout_alignLeft="@+id/esdistan"
+        android:layout_alignStart="@+id/esdistan"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Direcciones"
+        android:id="@+id/textView13"
+        android:layout_below="@+id/esfechasoli"
+        android:layout_alignLeft="@+id/esfechasoli"
+        android:layout_alignStart="@+id/esfechasoli"
+        android:layout_marginTop="20dp" />
+
+</RelativeLayout>
+    </ScrollView>

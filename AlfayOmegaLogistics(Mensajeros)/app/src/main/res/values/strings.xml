@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Alfa y Omega Logistics M</string>
+    <string name="title_activity_menus">Menu</string>
+
+    <string name="navigation_drawer_open"></string>
+    <string name="navigation_drawer_close"></string>
+
+
+    <string name="title_activity_navigation">Alfa Y Omega Logistics M</string>
+</resources>
